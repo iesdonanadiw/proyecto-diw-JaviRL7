@@ -1,0 +1,59 @@
+-El problema del espacio alrededor de los div del header (en la pagina video.)
+-Preguntar como quitar ese espacio
+-Cambiar forma cards 
+-Espacio entre card de videos
+-https://www.layoutit.com/build
+-https://blog.aulaformativa.com/ejemplos-efectos-de-texto-css-codepen/
+-Probar pagina principal con el fondo como video.
+-https://www.w3schools.com/howto/howto_css_dividers.asp
+para la linea de separacion
+
+
+
+-----------
+
+
+
+-Para las tarjetas de noticias poner antes del titulo autor y foto 
+-Poner el body de un color mas oscuro y un enlace para leer mas
+-Que vaya a una pagina prototipo de noticia 
+
+----
+
+Por que no se me centra la foto del 5 ????
+
+El espacio entre los divs
+https://codepen.io/ para sacar las tarjetas
+
+
+-----Poner borde al articulo con hover, y que la letra cambie de color. 
+Poner el autor con foto de perfil
+-----Poner boton read more
+
+
+
+
+
+
+
+----------------------------------------------------
+
+
+Probar con clase card (es de bootstrap) y carta ///
+
+
+
+
+-----------
+PROBAR ENLACES SIN span 
+cambiar color y quitar subrayado 
+
+
+-----
+
+
+los cuadrados de colores con img fluid intentar centrar el nav 
+------
+
+
+el footer intentar que se mantenga los logos en linea
