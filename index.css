@@ -203,3 +203,57 @@ input{
   border: 2px solid white;
   color: white;
 }
+
+
+
+
+
+.carta {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #353535;
+  border-radius: 0;
+  word-wrap: break-word;
+
+
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+h4{
+  color: white;
+}
+p{
+  color: #656565;
+}
+#centrar {
+  position: relative;
+}
+
+.texto {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-size: 18px;
+  display: none;
+}
+
+#centrar:hover .texto {
+  display: block;
+}
+
+#guia{
+  text-align: center;
+  border: 1px;
+}
