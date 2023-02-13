@@ -10,14 +10,20 @@ El proyecto de la pagina esta inspirado en paginas como https://letterboxd.com/ 
 Con el objetivo de crear una página similar en funcionalidad a Letterboxd pero del mundo de los videojuegos de lucha 2D.
 
 <h3>Modificaciones</h3>
+
+
 Se ha modificado el proyecto respecto al trabajo anterior en Figma como le comente en clases.
 
-Como he utilizado bootstrap para maquetar las paginas las dos entregas son la misma.
+La principal modificación es cambiar a un diseño de página principal con más altura y más información con respecto a la original con Figma.
 
-No estoy muy contento con el resultado de algunas vistas del proyecto, debido a que abuse de las herramientas de bootstrap al comienzo del proyecto y he pasado mas tiempo del que esperaba transformando las tarjetas, header y footer a html y css normal
+Por tanto la distribución del resto de vista también cambia porque la mayoría de la información se encuentra en la página principal.
+
+También he cambiado de idea respecto a la funcionalidad de la página y aunque aun no estoy del todo conforme con la idea del proyecto, se asemeja más a lo que pretendo que sea a la hora de realizar el trabajo de fin de grado.
+
+Como he utilizado bootstrap para maquetar las páginas las dos entregas son la misma.
 
 
-La vista de galeria.html esta creada con las herramientas de bootstrap pero era una vista extra con respecto al trabajo de figma por eso la he dejado como estaba. 
+
 
 <h3>Recursos</h3>
 
