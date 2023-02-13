@@ -1,6 +1,10 @@
 # proyecto-diw-JaviRL7
 proyecto-diw-JaviRL7 created by GitHub Classroom
 
+<h3>Figma</h3>
+https://www.figma.com/file/bFyvJ2VdUjd3yYY9mdk8X2/Untitled?node-id=0%3A1&t=jDdwItqWV8tL2VLb-0
+<h3>Descripcion</h3>
+
 Se ha modificado el proyecto respecto al trabajo anterior en Figma como le comente en clases.
 El proyecto de la pagina esta inspirado en paginas como https://letterboxd.com/ (Principalmente), https://www.filmaffinity.com/es/main.html y https://www.dustloop.com/w/Main_Page.
 
