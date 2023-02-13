@@ -1,0 +1,68 @@
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body{
+  background-color: #212121;
+}
+
+#footer{
+  background-color: #343a40;
+  height: 400px;
+}
+#header{
+  background-color: #212121;
+}
+
+span{
+  font-size: x-large;
+  color: white;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: white;
+}
+
+li{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline;
+}
+ul{
+  display: inline;
+}
+a{
+  display: inline;
+  padding: 7px;
+}
+
+#junto{
+  display: inline;
+}
