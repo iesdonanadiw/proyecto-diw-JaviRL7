@@ -11,15 +11,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="Imagenes/miLogo.svg">
+
 </head>
 <body>
+  <audio autoplay="true" loop>
+    <source src="audio/loop.mp3" type="audio/mpeg">
+    Tu navegador no soporta la etiqueta de audio.
+  </audio>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2">
       </div>
       <div class="col-md-8" id="cabecera">
         <a href="/">
-          <img src="Imagenes/Logo_simple.png" width="90" height="90">
+          <img src="Imagenes/miLogo.svg" width="90" height="90">
           </img>
         </a>
         <a href="Index.html" >inicio</a>
@@ -43,10 +49,24 @@
     </div>
     <div class="row">
       <div class="col-md-3">
+        
+      </div>
+      <div class="col-md-6">
+        <details>
+          <summary><h1>Ver GIF animado del logo, haz click</h1></summary>
+          <img src="Animaciones/ANIMACION.gif" alt="GIF animado">
+        </details>
+      </div>
+      <div class="col-md-3">
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
         VACIO
       </div>
-      <div class="col-md-2">
-        <a href="video.html"><img src="Imagenes/1.png" id="img" class="img-fluid"></a>
+      <div class="col-md-2" >
+        <a href="video.html"><div onclick="document.getElementById('golpe').play()"><img src="Imagenes/1.png" id="img" class="img-fluid"></div></a>
       </div>
       <div class="col-md-2">
         <a href="video.html"><img src="Imagenes/2.png" id="img" class="img-fluid"></a>
@@ -376,7 +396,38 @@
 
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
+        <button id="contactoBtn">Mis Datos</button>
+<dialog id="contactoDialog">
+  <h2>Mis datos personales</h2>
+  <ul>
+    <li>Calle San Juan nº74</li>
+    <li>Telefono 644 34 33 60</li>
+    <li>Sanlucar de Barrameda Cadiz</li>
+  </ul>
+  <button id="cerrarContacto">Cerrar</button>
+</dialog>
 
+<script>
+  const contactoBtn = document.querySelector('#contactoBtn');
+  const contactoDialog = document.querySelector('#contactoDialog');
+  const cerrarContacto = document.querySelector('#cerrarContacto');
+
+  contactoBtn.addEventListener('click', () => {
+    contactoDialog.showModal();
+  });
+
+  cerrarContacto.addEventListener('click', () => {
+    contactoDialog.close();
+  });
+</script>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-md-3">
@@ -414,7 +465,9 @@
     <div class="col-md-12"></div>
     <div class="row">
     <div class="col-md-3">
+      
 
+    
     </div>
     <div class="col-md-5">
       <span>© 2022 LEARN TO TECH Company, Inc</span>
