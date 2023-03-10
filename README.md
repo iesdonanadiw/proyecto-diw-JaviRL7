@@ -1,5 +1,15 @@
 # proyecto-diw-JaviRL7
 proyecto-diw-JaviRL7 created by GitHub Classroom
+<h3>Entrega 4</h3>
+He creado una nueva rama con todo lo añadido en esta entrega.
+
+Gif animado en la pagina index.html
+
+Boton de contacto usando dialog junto a proximos eventos en la pagina principal
+
+Audio en bucle automatico
+
+Imagenes de la tienda cambaidas a las modificadas en la entre 3
 
 <h3>Figma</h3>
 https://www.figma.com/file/bFyvJ2VdUjd3yYY9mdk8X2/Untitled?node-id=0%3A1&t=jDdwItqWV8tL2VLb-0
